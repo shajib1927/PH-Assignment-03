@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree&family=Poppins&display=swap');
+
+html, body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+}
+.cor-it:after {
+    content:"";
+    display:block;
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background:rgba(8, 8, 8, 0.6);
+  }
+.carousel-caption {
+    z-index: 1;
+}
