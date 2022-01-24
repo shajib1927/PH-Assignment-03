@@ -17,3 +17,7 @@ html, body {
 .carousel-caption {
     z-index: 1;
 }
+
+li {
+    padding: 8px 0px;
+}
