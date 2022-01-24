@@ -181,7 +181,19 @@
             </div>
           </section>
     </section>
-
+    <div aria-live="polite" aria-atomic="true" style="position: relative; min-height: 200px;">
+        <div class="toast show" style="position: absolute; top: 0; right: 0;">
+          <div class="toast-header">
+            <strong class="mr-auto">20% OFF</strong>
+            <button type="button" class="ms-5 mb-1 close" data-dismiss="toast" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="toast-body">
+            Click to get this offer!!!
+          </div>
+        </div>
+      </div>
     <section class="container">
         <div class="row gx-5 my-5">
             <div class="pt-5 col-lg-6">
@@ -226,7 +238,7 @@
 
 
     <section class="container">
-        <div class="d-flex">
+        <div class="d-flex my-5">
             <form class="col-8 mx-auto">
                 <!-- Name input -->
                 <div class="form-outline mb-4">
@@ -251,11 +263,28 @@
                 </div>
               
                 <!-- Submit button -->
-                <button type="submit" class="btn btn-primary btn-block mb-4">Subscribe</button>
+                <div class="d-flex justify-content-center">
+                    <button type="submit" class="btn btn-primary mb-4">Subscribe</button>
+                </div>
               </form>
         </div>       
     </section>
     <footer>
+        <div class="bg-dark container-fluid bg-dark.bg-gradient row mt-5 px-5 py-3">
+            <div class="text-light align-middle col-lg-10 my-auto">
+                <p>Copyright 2022 <i class="far fa-copyright"></i> Bridal Convention center</p>
+                <p>All rights reserved</p>
+            </div>
+            <div class="col">
+                <div class=" align-middle py-2">
+                  <img src="./images/dark-as.svg" alt="">  
+                </div>
+                <div class="py-2">
+                    <img src="./images/dark-gp.svg" alt="">
+                </div>
+            </div>
+        </div>
+        
         
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
